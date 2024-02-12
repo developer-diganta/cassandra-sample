@@ -1,0 +1,31 @@
+2024-02-12 11:45:20 info: Server started
+2024-02-12 11:46:52 info: Server started
+2024-02-12 11:48:01 info: Server started
+2024-02-12 11:49:36 info: Server started
+2024-02-12 11:51:19 info: Server started
+2024-02-12 11:51:53 info: Server started
+2024-02-12 11:52:08 info: Server started
+2024-02-12 11:57:43 info: Server started
+2024-02-12 12:00:51 info: Server started
+2024-02-12 12:00:53 info: Server started
+2024-02-12 12:06:01 info: Received GET request for /text/user/1
+2024-02-12 12:06:01 info: Request completed successfully with status 200 in 5 ms
+2024-02-12 12:06:01 info: Received GET request for /favicon.ico
+2024-02-12 12:06:01 error: Request failed with status 404 in 3 ms
+2024-02-12 12:58:13 info: Received GET request for /text/user/1
+2024-02-12 12:58:13 error: Request failed with status 404 in 5 ms
+2024-02-12 12:59:08 info: Received GET request for /text/user/1
+2024-02-12 12:59:08 error: Request failed with status 404 in 8 ms
+2024-02-12 12:59:29 info: Received GET request for /text/user/1
+2024-02-12 12:59:29 error: Request failed with status 404 in 9 ms
+2024-02-12 12:59:51 info: Received GET request for /text/user/1
+2024-02-12 12:59:51 error: Request failed with status 404 in 5 ms
+2024-02-12 13:00:04 info: Received GET request for /text/user/1
+2024-02-12 13:00:51 info: Received GET request for /text/user/1
+2024-02-12 13:00:51 info: Request completed successfully with status 200 in 30 ms
+2024-02-12 13:01:33 info: Received GET request for /text/user/1
+2024-02-12 13:01:33 info: Request completed successfully with status 200 in 66 ms
+2024-02-12 13:01:37 info: Received GET request for /text/user/11
+2024-02-12 13:01:37 error: Request failed with status 404 in 2 ms
+2024-02-12 13:01:40 info: Received GET request for /text/user/10
+2024-02-12 13:01:40 info: Request completed successfully with status 200 in 4 ms
