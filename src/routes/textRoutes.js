@@ -1,10 +1,16 @@
 const express = require('express');
-const userTexts = require('../controllers/text.contoller');
-const { getUser } = require('../services/user.service');
+const {
+    userTextsController,
+    addUserTextsController,
+    editTextController
+} = require('../controllers/text.contoller');
+const { getUserMiddleware } = require('../middlewares/getUser.middleware');
+const checkTextAuthorMiddleware = require('../middlewares/checkTextAuthor.middleware');
 const router = express.Router();
 
 router.route("/text/user/:id")
-.get(getUser, userTexts);
-// .post();
+.get(getUserMiddleware, userTextsController)
+.post(getUserMiddleware, addUserTextsController)
+.patch(getUserMiddleware, checkTextAuthorMiddleware, editTextController)
 
 module.exports = router;

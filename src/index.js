@@ -4,6 +4,8 @@ const logger = require("./middlewares/logger.middleware");
 const textRoutes = require("./routes/textRoutes");
 
 const app = express();
+app.use(express.json());
+app.use(express.urlencoded({extended:true}))
 
 app.use(logger);
 app.use(textRoutes);

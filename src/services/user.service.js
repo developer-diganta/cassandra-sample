@@ -1,18 +1,24 @@
 const userList = require("../static/users.json");
 
-const getUser = async (req,res,next) => {
-    const userId = parseInt(req.params.id);
-
-    const user = userList.find(obj => obj.uuid === userId);
-    console.log(user)
-    if(user){
-        req.userId = userId;
-        next();
-    }else{
-        res.status(404).send("No user found");
+/**
+ * Retrieves a user from the user list based on the user ID.
+ * 
+ * @param {string} userId - The ID of the user to retrieve.
+ * @returns {Object|Error} - The user object if found, or an Error object if the user is not found.
+ */
+const getUserFromList = async (userId) => {
+    try {
+        const user = userList.find(obj => obj.uuid === userId);
+        if (user) {
+            return user; 
+        } else {
+            throw new Error("User Not Found"); 
+        }
+    } catch (error) {
+        return error; 
     }
 }
 
 module.exports = {
-    getUser
+    getUserFromList
 }
