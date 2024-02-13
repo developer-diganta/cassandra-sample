@@ -12,8 +12,6 @@ const logger = createLogger({
     transports: [
       new transports.Console(),
       new transports.File({ filename: loggerFiles.error, level: 'error' }),
-      new transports.File({ filename: loggerFiles.warn, level: 'warn' }),
-    //   new transports.File({ filename: loggerFiles.debug, level: 'debug' }),
       new transports.File({ filename: loggerFiles.info, level: 'info' }),
     ],
     level:'info'

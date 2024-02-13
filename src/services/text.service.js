@@ -1,6 +1,6 @@
 const cassandraClient = require("../database/cassandraConnection");
 const { v4: uuid } = require('uuid');
-const { selectTextsByUserStmt, insertTextStmt, checkTextAuthorStmt, editTextStmt } = require("../database/cassandraQueries");
+const { selectTextsByUserStmt, insertTextStmt, checkTextAuthorStmt, editTextStmt, deleteTextSmt } = require("../database/cassandraQueries");
 
 /**
  * Retrieves texts associated with a user.
@@ -34,33 +34,60 @@ const addUserTexts = async (userId, text) => {
         throw error;
     }
 }
-
-const checkTextAuthor = async(userId, textId) => {
-    try{
-        console.log("TXTID",textId)
-        console.log("TXTID2",userId)
-        const result = await cassandraClient.execute(checkTextAuthorStmt,[userId,textId],{ prepare: true });
-        console.log(result)
-        if(result.rowLength) return true;
-        else throw new Error("Author doesnot match");
-    }catch(error){
+/**
+ * Checks if the provided user ID matches the author of the specified text.
+ * @param {string} userId - The ID of the user to be checked.
+ * @param {string} textId - The ID of the text to be checked.
+ * @returns {boolean} - Returns true if the user is the author of the text, otherwise throws an error.
+ */
+const checkTextAuthor = async (userId, textId) => {
+    try {
+        const result = await cassandraClient.execute(checkTextAuthorStmt, [userId, textId], { prepare: true });
+        console.log(result);
+        if (result.rowLength) return true;
+        else throw new Error("Author does not match");
+    } catch (error) {
         throw error;
     }
 }
 
-
-const editUserTexts = async(textId,text,userId) => {
-    try{
-        const result = await cassandraClient.execute(editTextStmt,[text, userId, textId],{ prepare: true });
+/**
+ * Edits the content of a text belonging to the specified user.
+ * @param {string} textId - The ID of the text to be edited.
+ * @param {string} text - The new content for the text.
+ * @param {string} userId - The ID of the user who owns the text.
+ * @returns {object} - Returns the result of the edit operation.
+ */
+const editUserTexts = async (textId, text, userId) => {
+    try {
+        const result = await cassandraClient.execute(editTextStmt, [text, userId, uuid(textId)], { prepare: true });
         return result;
-    }catch(error){
+    } catch (error) {
         throw error;
     }
 }
+
+/**
+ * Deletes a text associated with the user.
+ * @param {*} textId - The ID of the text to delete.
+ * @param {*} userId - The ID of the user who owns the text.
+ * @returns {Object} - The result of the deletion operation.
+ */
+const deleteUserTexts = async (textId, userId) => {
+    try {
+        const result = await cassandraClient.execute(deleteTextSmt, [userId, uuid(textId)], { prepare: true });
+        return result;
+    } catch (error) {
+        throw error;
+    }
+}
+
+
 
 module.exports = {
     getUserTexts,
     addUserTexts,
     checkTextAuthor,
-    editUserTexts
+    editUserTexts,
+    deleteUserTexts
 }
