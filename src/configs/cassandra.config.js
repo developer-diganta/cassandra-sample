@@ -1,7 +1,7 @@
 const cassandraConfig = {
-    contactPoints: ['127.0.0.1'],
-    localDataCenter: 'datacenter1',
-    keyspace: 'text_share'
+    contactPoints: [process.env.CONTACT_POINT],
+    localDataCenter: process.env.LOCAL_DATA_CENTER,
+    keyspace: process.env.KEYSPACE
 }
 
 module.exports = cassandraConfig;
