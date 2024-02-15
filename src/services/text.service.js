@@ -11,6 +11,7 @@ const { selectTextsByUserStmt, insertTextStmt, checkTextAuthorStmt, editTextStmt
  */
 const getUserTexts = async (userId) => {
     try {
+        console.log(userId)
         const result = await cassandraClient.execute(selectTextsByUserStmt, [userId], { prepare: true });
         return result.rows;
     } catch (error) {
@@ -59,7 +60,7 @@ const checkTextAuthor = async (userId, textId) => {
  */
 const editUserTexts = async (textId, text, userId) => {
     try {
-        const result = await cassandraClient.execute(editTextStmt, [text, userId, uuid(textId)], { prepare: true });
+        const result = await cassandraClient.execute(editTextStmt, [text, userId, textId], { prepare: true });
         return result;
     } catch (error) {
         throw error;
@@ -74,7 +75,7 @@ const editUserTexts = async (textId, text, userId) => {
  */
 const deleteUserTexts = async (textId, userId) => {
     try {
-        const result = await cassandraClient.execute(deleteTextSmt, [userId, uuid(textId)], { prepare: true });
+        const result = await cassandraClient.execute(deleteTextSmt, [userId, textId], { prepare: true });
         return result;
     } catch (error) {
         throw error;

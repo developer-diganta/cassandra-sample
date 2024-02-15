@@ -7,12 +7,13 @@ const {
 } = require('../controllers/text.contoller');
 const { getUserMiddleware } = require('../middlewares/getUser.middleware');
 const checkTextAuthorMiddleware = require('../middlewares/checkTextAuthor.middleware');
+const verifyJWTMiddleware = require('../middlewares/verifyJWT.middleware');
 const router = express.Router();
 
 router.route("/text/user/:id")
-.get(getUserMiddleware, userTextsController)
-.post(getUserMiddleware, addUserTextsController)
-.patch(getUserMiddleware, editTextController)
-.delete(getUserMiddleware, deleteTextController);
+.get(verifyJWTMiddleware, getUserMiddleware, userTextsController)
+.post(verifyJWTMiddleware, getUserMiddleware, addUserTextsController)
+.patch(verifyJWTMiddleware, getUserMiddleware, editTextController)
+.delete(verifyJWTMiddleware, getUserMiddleware, deleteTextController);
 
 module.exports = router;

@@ -1,6 +1,6 @@
 const userList = require("../static/users.json");
 const cassandraClient = require("../database/cassandraConnection");
-const { selectUserStmtPublic, selectUsersStmtPublic, insertUser } = require("../database/cassandraQueries");
+const { selectUserStmtPublic, selectUsersStmtPublic, insertUser, checkUserCredentialsStmt, selectUserStmt, verifyUserStmt } = require("../database/cassandraQueries");
 const { v4: uuid } = require('uuid');
 
 /**
@@ -22,6 +22,17 @@ const getUserFromList = async (userId) => {
     }
 }
 
+const getUser = async (userId) => {
+    try{
+        const user = await cassandraClient.execute(selectUserStmt,[userId],{prepare:true});
+        if(user instanceof Error){
+            throw new Error("User not found")
+        }
+        return user.rows[0];
+    }catch(error){
+        throw error;
+    }
+}
 const getUsersPublic = async () => {
     try{
         const users = cassandraClient.execute(selectUsersStmtPublic,{prepare:true});
@@ -41,8 +52,39 @@ const userSignUp = async (user) => {
         throw error;
     }
 }
+
+const checkUserCredentials = async (email, id)=>{
+    try{
+        const result = await cassandraClient.execute(checkUserCredentialsStmt,[id,email],{prepare:true});
+        if(result.rowLength){
+            return 1;
+        }else{
+            throw new Error("Session Expired/Error")
+        }
+    }catch(error){
+        throw error;
+    }
+}
+
+const loginUser=async (email) => {
+    try{
+        console.log(email)
+        const result = await cassandraClient.execute(verifyUserStmt,[email],{prepare:true});
+        console.log(result)
+        if(result.rowLength){
+            return result.rows[0];
+        }else{
+            throw new Error("Invalid Credentials")
+        }
+    }catch(error){
+        console.log(error)
+        throw new Error("Invalid Credentials")
+    }
+}
 module.exports = {
     getUserFromList,
     getUsersPublic,
-    userSignUp
+    userSignUp,
+    getUser,
+    loginUser
 }

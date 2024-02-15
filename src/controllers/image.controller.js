@@ -32,7 +32,7 @@ const getSingleImageOfAuthor = async (req, res) => {
             throw result;
         }
         const imageName = result.image;
-        const imageFile = path.join(__dirname, '../static/uploads/' + imageName);
+        const imageFile = path.join(__dirname, '../../static/uploads/' + imageName);
         res.status(200).sendFile(imageFile);
     } catch (error) {
         console.log(error)
@@ -53,6 +53,7 @@ const addUserImagesController = async (req, res) => {
         }
         res.status(200).send("File Uploaded Successfully");
     } catch (error) {
+        console.log(error)
         res.status(400).send(error.message);
     }
 }
@@ -70,7 +71,7 @@ const deleteUserImagesController = async (req, res) => {
             throw result;
         }
         const image = imageDoc.image;
-        await fs.unlink(path.join(__dirname, '../static/uploads/' + image));
+        await fs.unlink(path.join(__dirname, '../../static/uploads/' + image));
         res.status(200).send("Image Deleted Successfully");
     } catch (error) {
         console.log(error)

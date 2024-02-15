@@ -1,22 +1,260 @@
-2024-02-15 12:37:39 info: Received POST request for /user
-2024-02-15 12:37:39 error: Request failed with status 404 in 3 ms
-2024-02-15 12:38:32 info: Received POST request for /user
-2024-02-15 12:38:32 error: Request failed with status 404 in 2 ms
-2024-02-15 12:39:02 info: Received POST request for /user
-2024-02-15 12:39:02 error: Request failed with status 400 in 11 ms
-2024-02-15 12:39:42 info: Received POST request for /user
-2024-02-15 12:39:42 error: Request failed with status 400 in 148 ms
-2024-02-15 12:40:01 info: Received POST request for /user
-2024-02-15 12:40:01 error: Request failed with status 400 in 261 ms
-2024-02-15 12:40:19 info: Received POST request for /user
-2024-02-15 12:40:19 error: Request failed with status 400 in 197 ms
-2024-02-15 12:43:03 info: Received POST request for /user
-2024-02-15 12:43:03 error: Request failed with status 400 in 263 ms
-2024-02-15 12:43:20 info: Received POST request for /user
-2024-02-15 12:43:20 error: Request failed with status 400 in 191 ms
-2024-02-15 12:43:35 info: Received POST request for /user
-2024-02-15 12:43:36 error: Request failed with status 400 in 291 ms
-2024-02-15 12:45:32 info: Received POST request for /user
-2024-02-15 12:45:32 info: Request completed successfully with status 200 in 149 ms
-2024-02-15 12:46:30 info: Received POST request for /user
-2024-02-15 12:46:30 info: Request completed successfully with status 200 in 151 ms
+2024-02-15 15:43:54 info: Received POST request for /images/user/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 15:43:54 error: Request failed with status 500 in 43 ms
+2024-02-15 15:43:55 info: Received POST request for /images/user/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 15:43:55 info: Request completed successfully with status 200 in 22 ms
+2024-02-15 16:38:17 info: Received POST request for /user
+2024-02-15 16:38:17 info: Request completed successfully with status 200 in 134 ms
+2024-02-15 16:39:13 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:39:13 error: Request failed with status 400 in 18 ms
+2024-02-15 16:39:39 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:39:39 error: Request failed with status 400 in 24 ms
+2024-02-15 16:40:01 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:40:01 error: Request failed with status 400 in 44 ms
+2024-02-15 16:40:47 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:40:47 error: Request failed with status 400 in 9 ms
+2024-02-15 16:41:31 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:41:31 info: Request completed successfully with status 200 in 49 ms
+2024-02-15 16:42:39 info: Received POST request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:42:39 info: Request completed successfully with status 200 in 23 ms
+2024-02-15 16:42:43 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:42:43 info: Request completed successfully with status 200 in 14 ms
+2024-02-15 16:43:45 info: Received POST request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:43:45 info: Request completed successfully with status 200 in 10 ms
+2024-02-15 16:44:06 info: Received PATCH request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:44:06 info: Request completed successfully with status 200 in 19 ms
+2024-02-15 16:44:11 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:44:11 info: Request completed successfully with status 200 in 10 ms
+2024-02-15 16:44:23 info: Received PATCH request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:44:23 info: Request completed successfully with status 200 in 11 ms
+2024-02-15 16:44:25 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:44:25 info: Request completed successfully with status 200 in 10 ms
+2024-02-15 16:45:13 info: Received PATCH request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:45:13 info: Request completed successfully with status 200 in 26 ms
+2024-02-15 16:45:48 info: Received PATCH request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:45:48 info: Request completed successfully with status 200 in 29 ms
+2024-02-15 16:45:52 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:45:52 info: Request completed successfully with status 200 in 22 ms
+2024-02-15 16:46:38 info: Received DELETE request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:46:38 info: Request completed successfully with status 200 in 16 ms
+2024-02-15 16:46:46 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:46:46 info: Request completed successfully with status 200 in 14 ms
+2024-02-15 16:47:09 info: Received DELETE request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:47:09 info: Request completed successfully with status 200 in 52 ms
+2024-02-15 16:47:14 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:47:14 info: Request completed successfully with status 200 in 22 ms
+2024-02-15 16:48:07 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:48:07 info: Request completed successfully with status 200 in 42 ms
+2024-02-15 16:48:27 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:48:27 error: Request failed with status 400 in 1 ms
+2024-02-15 16:48:40 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:48:40 info: Request completed successfully with status 200 in 11 ms
+2024-02-15 16:48:45 info: Received POST request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:48:45 info: Request completed successfully with status 200 in 22 ms
+2024-02-15 16:48:47 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:48:47 info: Request completed successfully with status 200 in 11 ms
+2024-02-15 16:49:01 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:49:01 info: Request completed successfully with status 200 in 14 ms
+2024-02-15 16:49:04 info: Received POST request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:49:04 info: Request completed successfully with status 200 in 14 ms
+2024-02-15 16:49:06 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:49:06 info: Request completed successfully with status 200 in 11 ms
+2024-02-15 16:49:13 info: Received POST request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:49:13 info: Request completed successfully with status 200 in 14 ms
+2024-02-15 16:49:15 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:49:15 info: Request completed successfully with status 200 in 10 ms
+2024-02-15 16:49:52 info: Received PATCH request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:49:52 info: Request completed successfully with status 200 in 25 ms
+2024-02-15 16:49:55 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:49:55 info: Request completed successfully with status 200 in 20 ms
+2024-02-15 16:50:12 info: Received DELETE request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:50:12 info: Request completed successfully with status 200 in 21 ms
+2024-02-15 16:50:16 info: Received GET request for /text/user/56f7b57f-595a-4acd-8353-73ccc986ae94
+2024-02-15 16:50:16 info: Request completed successfully with status 200 in 13 ms
+2024-02-15 16:51:45 info: Received GET request for /images/user/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:51:45 info: Request completed successfully with status 200 in 45 ms
+2024-02-15 16:52:13 info: Received GET request for /images/user/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:52:13 info: Request completed successfully with status 200 in 15 ms
+2024-02-15 16:52:23 info: Received GET request for /images/user/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:52:23 error: Request failed with status 400 in 3 ms
+2024-02-15 16:52:35 info: Received GET request for /images/user/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:52:35 info: Request completed successfully with status 200 in 10 ms
+2024-02-15 16:53:32 info: Received POST request for /images/user/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:53:32 info: Request completed successfully with status 200 in 36 ms
+2024-02-15 16:53:47 info: Received GET request for /images/user/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:53:47 info: Request completed successfully with status 200 in 24 ms
+2024-02-15 16:54:04 info: Received GET request for /images/user/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:54:04 info: Request completed successfully with status 200 in 69 ms
+2024-02-15 16:54:44 info: Received GET request for /images/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:54:44 error: Request failed with status 400 in 27 ms
+2024-02-15 16:55:18 info: Received GET request for /images/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:55:18 error: Request failed with status 400 in 67 ms
+2024-02-15 16:55:19 info: Received GET request for /images/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:55:19 error: Request failed with status 400 in 14 ms
+2024-02-15 16:55:52 info: Received GET request for /images/user/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:55:52 info: Request completed successfully with status 200 in 14 ms
+2024-02-15 16:56:00 info: Received GET request for /images/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:56:00 error: Request failed with status 404 in 18 ms
+2024-02-15 16:56:04 info: Received GET request for /images/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:56:04 error: Request failed with status 404 in 18 ms
+2024-02-15 16:56:23 info: Received GET request for /images/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:56:24 info: Request completed successfully with status 200 in 50 ms
+2024-02-15 16:57:37 info: Received DELETE request for /images/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:57:37 info: Request completed successfully with status 200 in 47 ms
+2024-02-15 16:57:41 info: Received GET request for /images/user/827b6da8-e7d0-4e8d-970f-5210ae447137
+2024-02-15 16:57:41 info: Request completed successfully with status 200 in 27 ms
+2024-02-15 16:59:01 info: Received GET request for /user/login
+2024-02-15 16:59:01 error: Request failed with status 400 in 1 ms
+2024-02-15 16:59:42 info: Received GET request for /user/login
+2024-02-15 16:59:42 error: Request failed with status 400 in 6 ms
+2024-02-15 16:59:59 info: Received GET request for /user/login
+2024-02-15 16:59:59 error: Request failed with status 400 in 3 ms
+2024-02-15 17:00:23 info: Received POST request for /user/login
+2024-02-15 17:00:23 error: Request failed with status 400 in 5 ms
+2024-02-15 17:00:49 info: Received POST request for /user/login
+2024-02-15 17:00:49 error: Request failed with status 400 in 138 ms
+2024-02-15 17:01:04 info: Received POST request for /user
+2024-02-15 17:01:04 info: Request completed successfully with status 200 in 168 ms
+2024-02-15 17:01:30 info: Received POST request for /user/login
+2024-02-15 17:01:31 error: Request failed with status 400 in 209 ms
+2024-02-15 17:02:09 info: Received POST request for /user/login
+2024-02-15 17:02:09 error: Request failed with status 400 in 165 ms
+2024-02-15 17:03:20 info: Received POST request for /user/login
+2024-02-15 17:03:20 error: Request failed with status 400 in 138 ms
+2024-02-15 17:04:04 info: Received POST request for /user/login
+2024-02-15 17:04:04 error: Request failed with status 400 in 146 ms
+2024-02-15 17:04:29 info: Received POST request for /user/login
+2024-02-15 17:04:30 error: Request failed with status 400 in 187 ms
+2024-02-15 17:06:42 info: Received POST request for /user/login
+2024-02-15 17:06:42 error: Request failed with status 400 in 17 ms
+2024-02-15 17:06:44 info: Received POST request for /user/login
+2024-02-15 17:06:44 error: Request failed with status 400 in 5 ms
+2024-02-15 17:06:57 info: Received POST request for /user/login
+2024-02-15 17:06:57 error: Request failed with status 400 in 16 ms
+2024-02-15 17:07:22 info: Received POST request for /user/login
+2024-02-15 17:07:22 error: Request failed with status 400 in 26 ms
+2024-02-15 17:07:47 info: Received POST request for /user/login
+2024-02-15 17:07:47 error: Request failed with status 400 in 23 ms
+2024-02-15 17:08:11 info: Received POST request for /user/login
+2024-02-15 17:08:11 error: Request failed with status 400 in 12 ms
+2024-02-15 17:09:21 info: Received POST request for /user/login
+2024-02-15 17:09:21 error: Request failed with status 400 in 27 ms
+2024-02-15 17:10:13 info: Received POST request for /user/login
+2024-02-15 17:10:13 error: Request failed with status 400 in 19 ms
+2024-02-15 17:10:58 info: Received POST request for /user/login
+2024-02-15 17:10:58 error: Request failed with status 400 in 14 ms
+2024-02-15 17:11:45 info: Received POST request for /user/login
+2024-02-15 17:11:45 error: Request failed with status 400 in 34 ms
+2024-02-15 17:12:50 info: Received POST request for /user/login
+2024-02-15 17:12:50 error: Request failed with status 400 in 37 ms
+2024-02-15 17:13:00 info: Received POST request for /user/login
+2024-02-15 17:13:00 error: Request failed with status 400 in 44 ms
+2024-02-15 17:13:24 info: Received POST request for /user/login
+2024-02-15 17:13:24 error: Request failed with status 400 in 57 ms
+2024-02-15 17:14:23 info: Received POST request for /user/login
+2024-02-15 17:14:23 error: Request failed with status 400 in 31 ms
+2024-02-15 17:14:42 info: Received POST request for /user/login
+2024-02-15 17:14:42 error: Request failed with status 400 in 39 ms
+2024-02-15 17:14:54 info: Received POST request for /user/login
+2024-02-15 17:14:54 error: Request failed with status 400 in 154 ms
+2024-02-15 17:15:34 info: Received POST request for /user/login
+2024-02-15 17:15:34 error: Request failed with status 400 in 159 ms
+2024-02-15 17:16:23 info: Received POST request for /user/login
+2024-02-15 17:16:23 error: Request failed with status 400 in 150 ms
+2024-02-15 17:16:37 info: Received POST request for /user/login
+2024-02-15 17:16:37 error: Request failed with status 400 in 248 ms
+2024-02-15 17:17:24 info: Received POST request for /user/login
+2024-02-15 17:17:24 error: Request failed with status 400 in 165 ms
+2024-02-15 17:17:35 info: Received POST request for /user/login
+2024-02-15 17:17:35 info: Request completed successfully with status 200 in 153 ms
+2024-02-15 17:22:30 info: Received POST request for /user
+2024-02-15 17:22:31 info: Request completed successfully with status 200 in 240 ms
+2024-02-15 17:22:40 info: Received POST request for /user
+2024-02-15 17:22:40 info: Request completed successfully with status 200 in 133 ms
+2024-02-15 17:23:17 info: Received POST request for /user
+2024-02-15 17:23:18 error: Request failed with status 400 in 188 ms
+2024-02-15 17:23:47 info: Received POST request for /user
+2024-02-15 17:23:48 info: Request completed successfully with status 200 in 263 ms
+2024-02-15 17:23:49 info: Received POST request for /user
+2024-02-15 17:23:49 info: Request completed successfully with status 200 in 127 ms
+2024-02-15 17:26:16 info: Received GET request for /text/user/92679ce9-a978-4ea7-8707-0f758e45fbb7
+2024-02-15 17:26:16 error: Request failed with status 400 in 12 ms
+2024-02-15 17:26:30 info: Received GET request for /text/user/92679ce9-a978-4ea7-8707-0f758e45fbb7
+2024-02-15 17:26:30 error: Request failed with status 400 in 38 ms
+2024-02-15 17:26:31 info: Received GET request for /text/user/92679ce9-a978-4ea7-8707-0f758e45fbb7
+2024-02-15 17:26:31 error: Request failed with status 400 in 8 ms
+2024-02-15 17:27:11 info: Received POST request for /user
+2024-02-15 17:27:12 info: Request completed successfully with status 200 in 202 ms
+2024-02-15 17:27:17 info: Received GET request for /text/user/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:27:17 info: Request completed successfully with status 200 in 21 ms
+2024-02-15 17:27:23 info: Received POST request for /text/user/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:27:23 info: Request completed successfully with status 200 in 17 ms
+2024-02-15 17:27:26 info: Received GET request for /text/user/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:27:26 info: Request completed successfully with status 200 in 12 ms
+2024-02-15 17:28:09 info: Received PATCH request for /text/user/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:28:09 info: Request completed successfully with status 200 in 18 ms
+2024-02-15 17:28:11 info: Received GET request for /text/user/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:28:11 info: Request completed successfully with status 200 in 13 ms
+2024-02-15 17:28:21 info: Received DELETE request for /text/user/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:28:21 info: Request completed successfully with status 200 in 24 ms
+2024-02-15 17:28:25 info: Received GET request for /text/user/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:28:25 info: Request completed successfully with status 200 in 23 ms
+2024-02-15 17:28:28 info: Received GET request for /text/user/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:28:28 info: Request completed successfully with status 200 in 7 ms
+2024-02-15 17:28:30 info: Received POST request for /images/user/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:28:30 info: Request completed successfully with status 200 in 57 ms
+2024-02-15 17:28:33 info: Received GET request for /images/user/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:28:33 info: Request completed successfully with status 200 in 19 ms
+2024-02-15 17:28:35 info: Received GET request for /images/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:28:35 error: Request failed with status 400 in 16 ms
+2024-02-15 17:28:50 info: Received GET request for /images/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:28:50 error: Request failed with status 400 in 14 ms
+2024-02-15 17:29:51 info: Received GET request for /images/0d5ac7f3-1e41-4de0-9111-e621d8fe6f4d
+2024-02-15 17:29:51 info: Request completed successfully with status 200 in 20 ms
+2024-02-15 17:30:01 info: Received POST request for /user/login
+2024-02-15 17:30:01 error: Request failed with status 400 in 9 ms
+2024-02-15 17:30:17 info: Received POST request for /user/login
+2024-02-15 17:30:17 error: Request failed with status 400 in 6 ms
+2024-02-15 17:30:58 info: Received POST request for /user/login
+2024-02-15 17:30:58 info: Request completed successfully with status 200 in 181 ms
+2024-02-15 18:37:35 info: Received POST request for /user
+2024-02-15 18:37:35 info: Request completed successfully with status 200 in 328 ms
+2024-02-15 18:38:25 info: Received GET request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:38:25 info: Request completed successfully with status 200 in 36 ms
+2024-02-15 18:38:37 info: Received POST request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:38:37 info: Request completed successfully with status 200 in 34 ms
+2024-02-15 18:38:46 info: Received GET request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:38:46 info: Request completed successfully with status 200 in 81 ms
+2024-02-15 18:39:04 info: Received PATCH request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:39:04 info: Request completed successfully with status 200 in 29 ms
+2024-02-15 18:39:09 info: Received GET request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:39:09 info: Request completed successfully with status 200 in 29 ms
+2024-02-15 18:39:26 info: Received DELETE request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:39:26 info: Request completed successfully with status 200 in 36 ms
+2024-02-15 18:39:29 info: Received GET request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:39:29 info: Request completed successfully with status 200 in 17 ms
+2024-02-15 18:39:48 info: Received GET request for /images/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:39:48 info: Request completed successfully with status 200 in 25 ms
+2024-02-15 18:39:58 info: Received POST request for /images/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:39:58 info: Request completed successfully with status 200 in 64 ms
+2024-02-15 18:40:03 info: Received GET request for /images/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:40:03 info: Request completed successfully with status 200 in 22 ms
+2024-02-15 18:40:22 info: Received GET request for /images/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:40:22 info: Request completed successfully with status 200 in 54 ms
+2024-02-15 18:40:38 info: Received DELETE request for /images/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:40:38 info: Request completed successfully with status 200 in 34 ms
+2024-02-15 18:40:41 info: Received GET request for /images/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:40:41 info: Request completed successfully with status 200 in 17 ms
+2024-02-15 18:41:41 info: Received GET request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c37
+2024-02-15 18:41:41 info: Request completed successfully with status 200 in 16 ms
+2024-02-15 18:44:14 info: Received POST request for /user
+2024-02-15 18:44:14 info: Request completed successfully with status 200 in 398 ms
+2024-02-15 19:00:40 info: Received POST request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c3
+2024-02-15 19:00:40 error: Request failed with status 400 in 7 ms
+2024-02-15 19:00:49 info: Received POST request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c38
+2024-02-15 19:00:49 error: Request failed with status 400 in 13 ms
+2024-02-15 19:01:00 info: Received GET request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c38
+2024-02-15 19:01:00 error: Request failed with status 400 in 12 ms
+2024-02-15 19:01:15 info: Received POST request for /user/login
+2024-02-15 19:01:15 error: Request failed with status 400 in 47 ms
+2024-02-15 19:01:35 info: Received POST request for /text/user/a2ea6f7f-fbb7-44b9-93d7-35da93e48c39
+2024-02-15 19:01:35 error: Request failed with status 400 in 14 ms

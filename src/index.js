@@ -5,11 +5,13 @@ const logger = require("./middlewares/logger.middleware");
 const textRoutes = require("./routes/textRoutes");
 const imageRoutes = require("./routes/imageRoutes");
 const userRoutes = require("./routes/userRoutes");
+const cookieParser = require('cookie-parser');
 
 
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}))
+app.use(cookieParser());
 
 app.use(logger);
 app.use(textRoutes);

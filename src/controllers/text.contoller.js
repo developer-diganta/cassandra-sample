@@ -10,6 +10,8 @@ const userTextsController = async (req, res) => {
         const userTexts = await getUserTexts(req.userId);
         res.status(200).send(userTexts);
     } catch (error) {
+        console.log(error)
+
         res.status(400).send(error);
     }
 }
@@ -35,6 +37,7 @@ const addUserTextsController = async (req, res) => {
  */
 const editTextController = async (req, res) => {
     try {
+        console.log(req.body.textId);
         const editedUserText = await editUserTexts(req.body.textId, req.body.text, req.userId);
         if (editedUserText instanceof Error) {
             throw editedUserText;
