@@ -1,6 +1,5 @@
 const cassandra = require('cassandra-driver');
 const cassandraConfig = require('../configs/cassandra.config')
-
 const client = new cassandra.Client(cassandraConfig);
 
 client.connect(function (err) {

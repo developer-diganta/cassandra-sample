@@ -43,7 +43,6 @@ const addUserTexts = async (userId, text) => {
 const checkTextAuthor = async (userId, textId) => {
     try {
         const result = await cassandraClient.execute(checkTextAuthorStmt, [userId, textId], { prepare: true });
-        console.log(result);
         if (result.rowLength) return true;
         else throw new Error("Author does not match");
     } catch (error) {

@@ -1,0 +1,22 @@
+2024-02-15 12:37:39 info: Received POST request for /user
+2024-02-15 12:37:39 error: Request failed with status 404 in 3 ms
+2024-02-15 12:38:32 info: Received POST request for /user
+2024-02-15 12:38:32 error: Request failed with status 404 in 2 ms
+2024-02-15 12:39:02 info: Received POST request for /user
+2024-02-15 12:39:02 error: Request failed with status 400 in 11 ms
+2024-02-15 12:39:42 info: Received POST request for /user
+2024-02-15 12:39:42 error: Request failed with status 400 in 148 ms
+2024-02-15 12:40:01 info: Received POST request for /user
+2024-02-15 12:40:01 error: Request failed with status 400 in 261 ms
+2024-02-15 12:40:19 info: Received POST request for /user
+2024-02-15 12:40:19 error: Request failed with status 400 in 197 ms
+2024-02-15 12:43:03 info: Received POST request for /user
+2024-02-15 12:43:03 error: Request failed with status 400 in 263 ms
+2024-02-15 12:43:20 info: Received POST request for /user
+2024-02-15 12:43:20 error: Request failed with status 400 in 191 ms
+2024-02-15 12:43:35 info: Received POST request for /user
+2024-02-15 12:43:36 error: Request failed with status 400 in 291 ms
+2024-02-15 12:45:32 info: Received POST request for /user
+2024-02-15 12:45:32 info: Request completed successfully with status 200 in 149 ms
+2024-02-15 12:46:30 info: Received POST request for /user
+2024-02-15 12:46:30 info: Request completed successfully with status 200 in 151 ms

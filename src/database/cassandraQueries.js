@@ -9,6 +9,10 @@ const selectParticularImageStmt = 'SELECT image FROM images WHERE user=? AND id=
 const insertImageStmt = 'INSERT INTO images (id,user,image) VALUES (?,?,?)';
 const deleteImageStmt = 'DELETE FROM images WHERE user=? AND id=?';
 
+const selectUsersStmtPublic = 'SELECT name,email FROM users';
+const selectUserStmt = 'SELECT * FROM users WHERE id=?';
+const selectUserStmtPublic = 'SELECT name, email, id WHERE email=? OR id=?';
+const insertUser = 'INSERT INTO users (id,email,name,password) VALUES(?,?,?,?)';
 module.exports = {
     selectTextsByUserStmt,
     insertTextStmt,
@@ -18,5 +22,9 @@ module.exports = {
     selectImageStmt,
     selectParticularImageStmt,
     insertImageStmt,
-    deleteImageStmt
+    deleteImageStmt,
+    selectUsersStmtPublic,
+    selectUserStmt,
+    selectUserStmtPublic,
+    insertUser
 }
